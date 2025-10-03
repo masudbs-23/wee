@@ -4,6 +4,7 @@ import ServicesSection from '@/components/ServicesSection';
 import ResultsSection from '@/components/ResultsSection';
 import PortfolioSection from '@/components/PortfolioSection';
 import PricingSection from '@/components/PricingSection';
+import BlogSection from '@/components/BlogSection';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <ResultsSection />
         <PortfolioSection />
         <PricingSection />
+        <BlogSection />
       </main>
       <Footer />
     </div>

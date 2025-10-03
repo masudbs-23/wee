@@ -8,9 +8,9 @@ export default function PortfolioSection() {
       }}></div>
 
       <div className="max-w-11/12 sm:max-w-9/12 mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20">
+        <div className="grid grid-cols-1 lg:grid-cols-20 gap-6 sm:gap-8 lg:gap-10">
           {/* Left Section - Text and Filters */}
-          <div className="space-y-6 sm:space-y-8 lg:space-y-10">
+          <div className="lg:col-span-9 space-y-6 sm:space-y-8 lg:space-y-10">
             {/* Case Study Label */}
             <div className="inline-flex items-center px-5 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-bold tracking-wider">
               CASE STUDY
@@ -56,9 +56,9 @@ export default function PortfolioSection() {
           </div>
 
           {/* Right Section - Project Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+          <div className="lg:col-span-11 grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 lg:gap-5">
             {/* Card 1 - Nike Air Max SC */}
-            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
+            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow h-[370px]">
               <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   DESIGN BRANDING
@@ -90,7 +90,7 @@ export default function PortfolioSection() {
             </div>
 
             {/* Card 2 - Web Development Security */}
-            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
+            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow h-[370px] mt-[49px]">
               <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   WEB DEVELOPMENT
@@ -131,7 +131,7 @@ export default function PortfolioSection() {
             </div>
 
             {/* Card 3 - GetTrip */}
-            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
+            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow h-[370px]">
               <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   DESIGN BRANDING
@@ -151,7 +151,7 @@ export default function PortfolioSection() {
             </div>
 
             {/* Card 4 - UI/UX Smart Home */}
-            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
+            <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow h-[370px] mt-[49px]">
               <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   UI/UX

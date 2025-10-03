@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-sm">
       <div className="max-w-9/12 mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 sm:h-16">
           {/* Logo */}
           <div className="flex items-center">
             <div className="flex items-center space-x-2">
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="w-4 h-4 bg-white rounded-full opacity-80"></div>
               </div>
               {/* Logo Text */}
-              <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+              <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 Weezard
               </span>
             </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="px-6 py-2 border-2 border-purple-200 text-purple-600 rounded-full hover:bg-purple-50 transition-colors duration-200 font-medium">
+            <button className="px-4 sm:px-6 py-2 border-2 border-purple-200 text-purple-600 rounded-full hover:bg-purple-50 transition-colors duration-200 font-medium text-sm sm:text-base">
               Get a Free Consultation
             </button>
           </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
                 Contact
               </a>
               <div className="px-3 py-2">
-                <button className="w-full px-6 py-2 border-2 border-purple-200 text-purple-600 rounded-full hover:bg-purple-50 transition-colors duration-200 font-medium">
+                <button className="w-full px-4 sm:px-6 py-2 border-2 border-purple-200 text-purple-600 rounded-full hover:bg-purple-50 transition-colors duration-200 font-medium text-sm sm:text-base">
                   Get a Free Consultation
                 </button>
               </div>

@@ -1,34 +1,34 @@
 export default function PortfolioSection() {
   return (
-    <section className="py-24 bg-white relative h-[1122px]">
+    <section className="py-12 sm:py-16 lg:py-24 bg-white relative h-auto sm:h-[1122px]">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-40" style={{
         backgroundImage: 'radial-gradient(circle, #d1d5db 1px, transparent 1px)',
         backgroundSize: '24px 24px'
       }}></div>
 
-      <div className="max-w-9/12 mx-auto px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div className="max-w-11/12 sm:max-w-9/12 mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20">
           {/* Left Section - Text and Filters */}
-          <div className="space-y-10">
+          <div className="space-y-6 sm:space-y-8 lg:space-y-10">
             {/* Case Study Label */}
             <div className="inline-flex items-center px-5 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-bold tracking-wider">
               CASE STUDY
             </div>
 
             {/* Main Heading */}
-            <h2 className="text-6xl font-bold text-slate-800 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-slate-800 leading-tight">
               Our Portfolio
             </h2>
 
             {/* Descriptive Paragraph */}
-            <p className="text-slate-600 text-lg leading-relaxed max-w-xl">
+            <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-xl">
               Every project we touch on is built with purpose, precision, and achievable goals. These portfolios highlight the kind of work we stand behind. These reflect our craft, our care, and our commitment to helping brands grow. Take a scroll through the transformations we've crafted, and find out what MediCare can do for you.
             </p>
 
             {/* Filter Tags */}
-            <div className="flex flex-wrap gap-4">
-              <div className="px-6 py-3 rounded-full text-white text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105" style={{ background: 'linear-gradient(135deg, #8B5CF6, #3B82F6)' }}>
+            <div className="flex flex-wrap gap-2 sm:gap-3 lg:gap-4">
+              <div className="px-4 sm:px-6 py-2 sm:py-3 rounded-full text-white text-xs sm:text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105" style={{ background: 'linear-gradient(135deg, #8B5CF6, #3B82F6)' }}>
                 All
               </div>
               <div className="px-6 py-3 rounded-full bg-gradient-to-r from-blue-50 to-indigo-50 text-slate-700 text-sm font-medium transform rotate-2 hover:rotate-0 hover:scale-105 transition-all duration-300 border border-blue-100 hover:border-blue-200 -translate-y-1">
@@ -56,10 +56,10 @@ export default function PortfolioSection() {
           </div>
 
           {/* Right Section - Project Cards */}
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
             {/* Card 1 - Nike Air Max SC */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   DESIGN BRANDING
                 </div>
@@ -91,7 +91,7 @@ export default function PortfolioSection() {
 
             {/* Card 2 - Web Development Security */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   WEB DEVELOPMENT
                 </div>
@@ -132,7 +132,7 @@ export default function PortfolioSection() {
 
             {/* Card 3 - GetTrip */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   DESIGN BRANDING
                 </div>
@@ -152,7 +152,7 @@ export default function PortfolioSection() {
 
             {/* Card 4 - UI/UX Smart Home */}
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-slate-100 hover:shadow-2xl transition-shadow">
-              <div className="p-6">
+              <div className="p-4 sm:p-6">
                 <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-xs font-bold tracking-wide mb-6">
                   UI/UX
                 </div>

@@ -1,18 +1,18 @@
 export default function ServicesSection() {
   return (
-    <section className="py-16 h-[1116px]">
-      <div className="max-w-9/12 mx-auto px-4">
+    <section className="py-8 sm:py-12 lg:py-16 h-auto sm:h-[1116px]">
+      <div className="max-w-11/12 sm:max-w-9/12 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-8 sm:mb-12 lg:mb-16">
           <div>
             <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-sm font-semibold mb-4">
               WHAT WE DO
             </div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Core Services</h2>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">Our Core Services</h2>
           </div>
           <div className="flex items-start">
             <div className="w-1 h-24 bg-purple-300 mr-6 flex-shrink-0"></div>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
               MediCare provides comprehensive healthcare services including doctor consultations,
               medicine delivery, nursing care, ambulance services, and blood bank facilities.
               Our mission is to make healthcare accessible and convenient for everyone,
@@ -22,7 +22,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Service Header Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {/* Web Design Header Card */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <div className="h-32 bg-gradient-to-r from-blue-500 to-purple-400 p-6 flex items-center">
@@ -35,8 +35,8 @@ export default function ServicesSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-white font-bold text-lg">Web Design</h3>
-                  <p className="text-white/80 text-sm">Creative, responsive, and user-focused designs.</p>
+                  <h3 className="text-white font-bold text-base sm:text-lg">Web Design</h3>
+                  <p className="text-white/80 text-xs sm:text-sm">Creative, responsive, and user-focused designs.</p>
                 </div>
               </div>
             </div>
@@ -53,8 +53,8 @@ export default function ServicesSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-white font-bold text-lg">Web Development</h3>
-                  <p className="text-white/80 text-sm">Custom-coded, fast, and scalable websites</p>
+                  <h3 className="text-white font-bold text-base sm:text-lg">Web Development</h3>
+                  <p className="text-white/80 text-xs sm:text-sm">Custom-coded, fast, and scalable websites</p>
                 </div>
               </div>
             </div>
@@ -70,8 +70,8 @@ export default function ServicesSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-white font-bold text-lg">Digital Marketing</h3>
-                  <p className="text-white/80 text-sm">SEO, Keyword Research, and Social Media Marketing that deliver ROI</p>
+                  <h3 className="text-white font-bold text-base sm:text-lg">Digital Marketing</h3>
+                  <p className="text-white/80 text-xs sm:text-sm">SEO, Keyword Research, and Social Media Marketing that deliver ROI</p>
                 </div>
               </div>
             </div>
@@ -79,9 +79,9 @@ export default function ServicesSection() {
         </div>
 
         {/* Service Content Cards */}
-        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="mt-8 sm:mt-10 lg:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
           {/* Web Design Content Card */}
-          <div className="bg-slate-50 rounded-2xl p-8">
+          <div className="bg-slate-50 rounded-2xl p-4 sm:p-6 lg:p-8">
             <ul className="space-y-4 mb-8">
               <li className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -131,7 +131,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Web Development Content Card */}
-          <div className="bg-purple-50 rounded-2xl p-8">
+          <div className="bg-purple-50 rounded-2xl p-4 sm:p-6 lg:p-8">
             <ul className="space-y-4 mb-8">
               <li className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-purple-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -181,7 +181,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Digital Marketing Content Card */}
-          <div className="bg-slate-50 rounded-2xl p-8">
+          <div className="bg-slate-50 rounded-2xl p-4 sm:p-6 lg:p-8">
             <ul className="space-y-4 mb-8">
               <li className="flex items-start space-x-3">
                 <svg className="w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">

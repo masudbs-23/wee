@@ -1,15 +1,15 @@
 export default function PricingSection() {
   return (
-    <section className="py-20 h-[1570px]" style={{ backgroundColor: '#092856' }}>
-      <div className="max-w-9/12 mx-auto px-6">
+    <section className="py-12 sm:py-16 lg:py-20 h-auto sm:h-[1570px]" style={{ backgroundColor: '#092856' }}>
+      <div className="max-w-11/12 sm:max-w-9/12 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 mb-8 sm:mb-12 lg:mb-16">
           {/* Left Side - Title */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-6">
             <div className="inline-flex items-center px-4 py-2 rounded-full text-white text-xs font-bold tracking-wider uppercase" style={{ backgroundColor: '#1e293b' }}>
               PRICING & PACKAGES
             </div>
-            <h2 className="text-4xl font-bold text-white leading-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-tight">
               Explore Our Transparent and Affordable Pricing Tailored to Your Need
             </h2>
           </div>
@@ -17,7 +17,7 @@ export default function PricingSection() {
           {/* Right Side - Description */}
           <div className="flex items-start">
             <div className="w-1 h-20 bg-blue-400 mr-6 flex-shrink-0"></div>
-            <p className="text-slate-300 text-base leading-relaxed">
+            <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
               We target small businesses, startups, and SMEs, offering our IT services in packages.
               Our pricing starts from $99, making professional web development accessible to everyone.
             </p>
@@ -25,9 +25,9 @@ export default function PricingSection() {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-10 lg:mb-12">
           {/* Starter Card */}
-          <div className="rounded-2xl p-6 shadow-xl border border-slate-700/50 h-[788px] flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, #305CD8, #092856)' }}>
+          <div className="rounded-2xl p-4 sm:p-6 shadow-xl border border-slate-700/50 h-auto sm:h-[788px] flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, #305CD8, #092856)' }}>
             <div>
             <div className="flex items-start space-x-4 mb-6">
               <div className="w-14 h-14 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
@@ -113,7 +113,7 @@ export default function PricingSection() {
           </div>
 
           {/* Growth Card */}
-          <div className="rounded-2xl p-6 shadow-xl border border-slate-700/50 h-[788px] flex flex-col justify-between" style={{ backgroundColor: '#305CD8' }}>
+          <div className="rounded-2xl p-4 sm:p-6 shadow-xl border border-slate-700/50 h-auto sm:h-[788px] flex flex-col justify-between" style={{ backgroundColor: '#305CD8' }}>
             <div>
             <div className="flex items-start space-x-4 mb-6">
               <div className="w-14 h-14 bg-purple-400 rounded-full flex items-center justify-center flex-shrink-0 relative">
@@ -220,7 +220,7 @@ export default function PricingSection() {
           </div>
 
           {/* Scale Card */}
-          <div className="rounded-2xl p-6 shadow-xl border border-slate-700/50 h-[788px] flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, #305CD8, #092856)' }}>
+          <div className="rounded-2xl p-4 sm:p-6 shadow-xl border border-slate-700/50 h-auto sm:h-[788px] flex flex-col justify-between" style={{ background: 'linear-gradient(to bottom, #305CD8, #092856)' }}>
             <div>
             <div className="flex items-start space-x-4 mb-6">
               <div className="w-14 h-14 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0 relative">
@@ -320,17 +320,17 @@ export default function PricingSection() {
         </div>
 
         {/* Custom Quote Section */}
-        <div className="rounded-2xl p-6 shadow-xl h-[223px] flex items-center justify-center" style={{ backgroundColor: '#3b82f6' }}>
+        <div className="rounded-2xl p-4 sm:p-6 shadow-xl h-auto sm:h-[223px] flex items-center justify-center" style={{ backgroundColor: '#3b82f6' }}>
           <div className="flex flex-col lg:flex-row items-center justify-between gap-4 w-full">
             <div className="text-center lg:text-left">
-              <h3 className="text-white font-bold text-2xl">
+              <h3 className="text-white font-bold text-xl sm:text-2xl">
                 Create a custom price quote
               </h3>
-              <h3 className="text-white font-bold text-3xl">
+              <h3 className="text-white font-bold text-2xl sm:text-3xl">
                 with <span style={{ color: '#EAD53F' }}>Weezard</span>
               </h3>
             </div>
-            <button className="bg-yellow-400 hover:bg-yellow-300 text-slate-800 font-semibold py-3 px-6 rounded-full transition-colors">
+            <button className="bg-yellow-400 hover:bg-yellow-300 text-slate-800 font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-colors text-sm sm:text-base">
               <div className="flex items-center space-x-2">
                 <span>Get Your Custom Quote</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
